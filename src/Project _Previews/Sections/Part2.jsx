@@ -1,7 +1,7 @@
 import React from "react";
 import SectionStyle from './SectionStyle.css'
 // import sampleVideo from '../MovieApp/Images/movieApp_preview.gif';
-import samImg from "../../Assets/Space Tourism.png";
+import samImg from "../../Assets/Space Tourism.gif";
 
 function Part2({ projectTitle,projectDesc,previewVideo1,previewVideo2,
   samImg1,samImg2,samImg3,samImg4,samImg5,samImg6,samImg7,samImg8,samImg9,data

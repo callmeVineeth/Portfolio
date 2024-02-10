@@ -6,7 +6,7 @@ function About() {
     <div className=" px-4 font-serif">
       <div className=" flex flex-col-reverse justify-evenly items-center md:flex-row-reverse">
         <div className=" w-full md:w-1/2 h-full px-12  md:px-20 text-xl ">
-        <h1 className=" text-4xl md:text-6xl py-4 my-10 border-b-2 w-max border-black"> About Me</h1>
+        <h1 className=" text-4xl md:text-5xl py-4 my-10 border-b-2 w-max border-black"> About Me</h1>
           <p className=" leading-9">
               I’m a junior front-end developer looking for a new role in an exciting
               company. I focus on writing accessible HTML, using modern CSS
@@ -16,7 +16,9 @@ function About() {
               experience in remote teams. When I’m not coding, you’ll find me
               outdoors. I love being out in nature whether that’s going for a walk,
               run or cycling. I’d love you to check out my work.
-              <a>More AboutMe</a>
+              <div className=" w-max p-2 hover:bg-black hover:text-white transition-all duration-200 border-2 border-black">
+               Read More
+              </div>
               
           </p>
         </div>
