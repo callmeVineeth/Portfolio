@@ -1,0 +1,57 @@
+.bg{
+    z-index: 9;
+    border: 1px solid gainsboro;
+    /* opacity: 50%; */
+    /* transition: all; */
+    transform: translate3d(0px, 0px, 0px);
+    content-visibility: visible;
+    transition-duration: 500ms;
+    background-color: blue;
+    
+}
+
+.with-animation{
+    background-color: red;
+    opacity: 0;
+    /* z-index: 100078; */
+    /* position:  */
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); 
+    grid-template-rows: repeat(8, 1fr); 
+    width: 100%;
+    height: 40vh;
+    grid-gap: 0.2px;
+    /* background-color: green; */
+    
+}
+
+.gridImage{
+    background: url('../../Assets/Untitled\ design.svg');
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    width: 60%;
+    border-radius: 12px;
+    /* background-color: rebeccapurple; */
+
+}
+.with-animation {
+    background-position: -100% 0;
+    animation: slide-background 2s linear infinite; 
+}
+
+/* Define the animation */
+@keyframes slide-background {
+    0% { background-position: -100% 0; width: 0;} /* Start position */
+    100% { background-position: 100% 0; width: 100%;} /* End position */
+}
+
+.grid_cell{
+    /* height: 100px;
+    width: 100px; */
+    border :1px solid grey;
+}

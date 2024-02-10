@@ -1,14 +1,10 @@
 import React from 'react'
 import HomePage from './Pages/Home/HomePage.jsx';
-import Page from './Pages/Page.css'
 // import Navbar from './Pages/Navbar/Navbar';
 // import { DataProvider } from './DataContext';
 import SkillsHome from './Pages/Skills/SkillsHome';
 import Projects from './Pages/Projects/Projects';
-import ProjectTiles from './Pages/Projects/ProjectTiles';
 import Contact from './Pages/Contact/Contact';
-import { DataContext } from './DataContext';
-import { useContext } from 'react';
 
 import Movie from './Project _Previews/MovieApp/Movie';
 
@@ -20,6 +16,7 @@ import GlobalChronicle from './Project _Previews/GlobalChronicle/GlobalChronicle
 import Edumentor from './Project _Previews/Edumentor/Edumentor';
 import {AnimatePresence} from 'framer-motion'
 import Navbar from './Pages/Navbar/Navbar';
+import About from './Pages/About/About.js';
 
 
 
@@ -34,6 +31,7 @@ function AnimatedRoutes() {
                 <>
                 <Navbar/>
                <div className='sections' id='homeSection'><HomePage/>   </div>
+               <div className='sections' id='aboutSection'> <About/>   </div>
                <div className='sections' id='projectSection'><Projects/>   </div>
                <div className='sections' id='skillSection'><SkillsHome/> </div>
                <div className='sections' id='contactSection'><Contact/>    </div>

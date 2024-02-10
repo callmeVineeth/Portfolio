@@ -4,7 +4,9 @@
 
 body {
   margin: 0;
-  font-family: 'Questrial', sans-serif;
+  /* font-family: 'Questrial', sans-serif; */
+  font-family:  sans-serif;
+  line-height: 1.875;
 
 }
 
