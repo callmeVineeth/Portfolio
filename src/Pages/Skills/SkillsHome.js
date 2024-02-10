@@ -23,7 +23,7 @@ export default function SkillsHome(){
   
     return (
       <div  className={`${darkMode && ''} skillSets w-full flex flex-col items-center justify-center gap-10  mt-24 md:mt-56 `}>
-        <span className={`${darkMode && ' text-violet-600'}  text-3xl md:text-5xl font-bold text-left w-full px-20`}> My Toolbox</span>
+        <span className={`${darkMode && ' text-violet-600'}  text-3xl md:text-5xl text-left font-serif w-full px-20`}> My Toolbox</span>
         <section className='flex flex-row md:flex-col items-center justify-evenly gap-4 md:gap-10'>
 
             <div className=' grid grid-cols-3 md:grid-cols-4  gap-4'>

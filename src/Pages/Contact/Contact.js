@@ -11,7 +11,7 @@ const{darkMode} = useContext(DataContext);
   return (
 
     <div className={`${darkMode && ' text-violet-600'} transition-colors duration-500 mt-20 md:mt-24 w-full mb-4`}>
-        <span className='w-full text-3xl md:text-5xl font-bold mt-20 px-6 md:px-24'>contact.</span>
+        <span className='w-full text-3xl md:text-5xl font-serif mt-20 px-6 md:px-24'>Contact.</span>
 
           <div className={` ${darkMode && ' text-violet-600'} text-md md:text-2xl font-bold flex  tracking-widest flex-col items-center justify-center gap-2 mt-4 md:m-10 md:p-4`}>
             <motion.span whileHover={{scale:1.3, color:'darkblue'}} transition={{ type:'spring', stiffness:'300'}} className=' cursor-pointer'> vineethpv024@gmail.com </motion.span>
