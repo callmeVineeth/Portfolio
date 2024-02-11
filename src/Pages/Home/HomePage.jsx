@@ -4,6 +4,9 @@ import { DataContext } from "../../DataContext";
 import {motion} from 'framer-motion'
 import GridImageDisplay from "./GridImageDisplay";
 import { Link } from "react-scroll";
+import Home from './Home.css'
+
+
 
 function HomePage() {
   const { darkMode } = useContext(DataContext);
@@ -24,15 +27,18 @@ function HomePage() {
             <span>
             I Love Developing Beautiful Websites.
             </span>
-            <button className="text-xl text-white md:text-2xl mt-6 w-max h-16 bg-green-900 p-4 
-            font-bold shadow-md  hover:scale-105 hover:shadow-2xl transition-all duration-500 uppercase">
+           
             <Link to='aboutSection'
               smooth={true}
               duration={500}
               spy={true}
               exact="true"
-              offset={-80}>About me</Link>
+              offset={-80}>
+                 <button className="btn text-xl border-2 hover:text-white border-black  md:text-2xl mt-6 w-max h-16 p-4 
+            font-bold transition-all duration-500 uppercase">
+                About me
             </button>
+                </Link>
          </div>
           <div className=" border-b-2 border-black h-10 w-2/3 md:mt-6">
         </div>
