@@ -27,65 +27,48 @@ function Toolbox() {
         <div class="grid grid-cols-3 gap-2 items-center justify-center p-2">
           <div class=" transition-all duration-300 hover:scale-105 bg-black p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  text-white ">
             <IoLogoReact />
-            <span className="  absolute text-8 text-3xl  md:l font-bold text-gray-400 opacity-10 font-sans ">
-              O1
-            </span>
+            <span className="  absolute text-8 text-3xl  md:l font-bold text-gray-400 opacity-60 font-sans ">
+
             <span className=" text-sm md:text-md text-white">React</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-gray-100 text-black p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  ">
             <SiTailwindcss />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O2
-            </span>
+
             <span className=" text-sm md:text-md text-black">TailwindCSS</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-black   p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  text-white ">
             <FaBootstrap />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O3
-            </span>
+
             <span className=" text-sm md:text-md text-white">Bootstrap</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-gray-100 text-black p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  ">
             <SiMui />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O4
-            </span>
+
             <span className=" text-sm md:text-md text-black">MaterialUI</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-black   p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  text-white ">
             <IoLogoSass />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O5
-            </span>
+
             <span className=" text-sm md:text-md text-white">SASS</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-gray-100 text-black p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  ">
             <TbApi />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O6
-            </span>
+
             <span className=" text-sm md:text-md text-black">API</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-black   p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  text-white ">
             <SiJest />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O7
-            </span>
+
             <span className=" text-sm md:text-md text-white">Jest</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-gray-100 text-black p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  ">
             <DiJavascript1 />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O8
-            </span>
+
             <span className=" text-sm md:text-md text-black">JavaScript</span>
           </div>
           <div class=" transition-all duration-300 hover:scale-105 bg-black   p-2 flex flex-col items-center justify-center md:h-24 md:w-24 text-3xl  text-white ">
             <TbBrandRedux />
-            <span className="  absolute text-3xl  md:text-8xl font-bold text-gray-400  opacity-10 font-sans ">
-              O9
-            </span>
+
             <span className=" text-sm md:text-md text-white"> Redux</span>
           </div>
         </div>
