@@ -16,7 +16,8 @@ function About() {
               experience in remote teams. When I’m not coding, you’ll find me
               outdoors. I love being out in nature whether that’s going for a walk,
               run or cycling. I’d love you to check out my work.
-              <div className=" w-max p-2 hover:bg-black hover:text-white transition-all duration-200 border-2 border-black">
+              <br/>
+              <div className=" btn w-max p-2 hover:text-white transition-all duration-200 border-2 border-black">
                Read More
               </div>
               
