@@ -32,7 +32,7 @@ function Navbar() {
     <div
       className={`${show ? 'block' : 'hidden'}  ${
         darkMode && " bg-black text-white"
-      }  navbar mt-4 md:mt-0 bg-white w-full  rounded-full md:rounded-sm fixed  transition-all 
+      }  navbar mt-4 md:mt-0 bg-white text-black w-full  rounded-full md:rounded-sm fixed  transition-all 
                  duration-1000 md:h-20 flex items-center md:justify-around`}
     >
    

@@ -1,7 +1,7 @@
 .navbar{
     z-index: 99;
     background: rgba(167, 163, 163, 0.3);
-    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
     padding: 20px;
-    transition: all 3s ease-in;
+    transition: top 0.3s ease-in;
+    border-bottom: 1px solid;
 }
