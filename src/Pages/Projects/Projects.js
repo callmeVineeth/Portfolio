@@ -35,8 +35,8 @@ function Projects() {
       </div>
        <MyWorks/>
        <h1 className=' text-md md:text-xl font-bold tracking-wider hover:border-b-2 px-3 cursor-pointer '>Explore some of my projects here</h1>
-      <div className='flex flex-wrap mt-8 md:mt-10 md:px-8'>
-        <div className='flex-wrap gap-1 grid grid-cols-1 md:grid-cols-3 '>
+      <div className='flex flex-wrap mt-8 md:mt-10 px-8'>
+        <div className='flex-wrap gap-1 grid grid-cols-1 md:grid-cols-3  '>
           <AnimatePresence>
             {projectTilesData.map(tile => (
               <Link key={tile.id} to={tile.link}>

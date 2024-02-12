@@ -41,7 +41,7 @@ export default function SkillsHome() {
       >
         My Toolbox
       </span>
-      <div className=" w-10/12 gap-6 items-start justify-center grid grid-cols-4">
+      <div className=" w-10/12 gap-6 items-start justify-center grid grid-cols-1 md:grid-cols-4">
 
         <SkillsCard
         ImageIcon={<FaLaptopCode/>}
@@ -73,39 +73,39 @@ export default function SkillsHome() {
         skill4={'Responsive Designing'}
         />
               </div>
-      <div className=" w-full flex flex-row  border-2 p-10  bg-gray-200">
+      <div className=" w-full flex flex-row  border-2 p-4 md:p-10  bg-gray-200">
         {/* <div className=' bg-green-400 w-1/3'>What are my stacks</div> */}
 
 
-        <div className="scroller flex flex-col" data-speed="fast">
-        <div className=" w-1/2 text-2xl flex items-center"> My Stacks</div>
+        <div className=" w-1/2 text-sm md:text-2xl flex items-center"> My Stacks</div>
+        <div className="scroller flex  flex-row" data-speed="fast">
           <ul className="tag-list scroller__inner  text-red-600">
-            <li className="box">
-              <FaGitSquare size={50} />
+            <li className="box text-xl">
+              <FaGitSquare  />
             </li>
             <li className="box">
-              <FaReact size={50} />
+              <FaReact  />
             </li>
             <li className="box">
-              <IoLogoHtml5 size={50} />
+              <IoLogoHtml5  />
             </li>
             <li className="box">
-              <IoLogoJavascript size={50} />
+              <IoLogoJavascript  />
             </li>
             <li className="box">
-              <SiTailwindcss size={50} />
+              <SiTailwindcss  />
             </li>
             <li className="box">
-              <FaBootstrap size={50} />
+              <FaBootstrap  />
             </li>
             <li className="box">
-              <FaSquareGithub size={50} />
+              <FaSquareGithub  />
             </li>
             <li className="box">
-              <SiMui size={50} />
+              <SiMui  />
             </li>
             <li className="box">
-              <TbBrandVscode size={50} />
+              <TbBrandVscode  />
             </li>
           </ul>
         </div>

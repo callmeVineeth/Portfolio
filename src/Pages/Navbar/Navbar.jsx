@@ -34,7 +34,7 @@ function Navbar() {
     <div
       className={`${show ? 'block' : 'hidden'}  ${
         darkMode && " "
-      }  navbar bg-white text-black border-b-2 border-black w-full uppercase  fixed  transition-all 
+      }  navbar bg-white text-black border-black w-full uppercase  fixed  transition-all 
       duration-1000 md:h-20 flex flex-col items-center md:justify-around`}
     >
       <div className=" w-full flex flex-col h-20 items-center justify-center">
