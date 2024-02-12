@@ -41,7 +41,7 @@ export default function SkillsHome() {
       >
         My Toolbox
       </span>
-      <div className=" w-full flex flex-row gap-6 items-start justify-center">
+      <div className=" w-10/12 gap-6 items-start justify-center grid grid-cols-4">
 
         <SkillsCard
         ImageIcon={<FaLaptopCode/>}
@@ -55,8 +55,9 @@ export default function SkillsHome() {
         heading={'React'}
         skill1={'Hooks'}
         skill2={'State and Props'}
-        skill3={'Redux & Context API'}
-        skill4={'Typescript'} />
+        skill3={'Redux '}
+        skill4={'Context API '}
+        skill5={'Typescript'} />
         <SkillsCard
         ImageIcon={<IoColorPaletteSharp/>}
         heading={'UI Frameworks'}
