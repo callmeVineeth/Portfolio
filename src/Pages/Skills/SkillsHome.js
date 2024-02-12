@@ -36,7 +36,7 @@ export default function SkillsHome() {
     >
       <span
         className={`${
-          darkMode && " text-violet-600"
+          darkMode && " text-red-600"
         }  text-3xl md:text-5xl text-left font-serif w-full px-20`}
       >
         My Toolbox
@@ -77,7 +77,7 @@ export default function SkillsHome() {
         {/* <div className=' bg-green-400 w-1/3'>What are my stacks</div> */}
 
 
-        <div className=" w-1/2 text-sm md:text-2xl flex items-center"> My Stacks</div>
+        <div className=" w-1/2 text-sm text-black md:text-2xl flex items-center"> My Stacks</div>
         <div className="scroller flex  flex-row" data-speed="fast">
           <ul className="tag-list scroller__inner  text-red-600">
             <li className="box text-xl">

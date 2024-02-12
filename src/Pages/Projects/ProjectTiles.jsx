@@ -8,7 +8,7 @@ function ProjectTiles({sampleImg, content}) {
 
 
   return (
-    <div className={` ${darkMode && ' bg-violet-800'} flex flex-col shadow-sm shadow-black 
+    <div className={` ${darkMode && ' '} flex flex-col shadow-sm shadow-black 
             md:h-auto m-2 md:m-4 pb-2`}
        >
         {/* <img src={sampleImg} alt='projectPic' className='project_pic w-1/2 md:w-full z-0 '/> */}

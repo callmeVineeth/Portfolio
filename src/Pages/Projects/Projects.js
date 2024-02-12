@@ -30,7 +30,7 @@ function Projects() {
 
   return (
     <div className={`transition-colors duration-500 w-full mt-12 md:mt-32 flex flex-col items-center font-serif justify-center md:px-10`}>
-      <div className={` ${darkMode && 'text-violet-700 '} text-center w-full text-4xl md:text-5xl px-20`}>
+      <div className={` ${darkMode && 'text-red-600'} text-center w-full text-4xl md:text-5xl px-20`}>
         My Works
       </div>
        <MyWorks/>
