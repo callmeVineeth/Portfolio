@@ -1,6 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import skills from "./Skills.css";
 import { addAnimation } from "./skillsanimation";
+import { FaLaptopCode } from "react-icons/fa";
+// import { FaReact } from "react-icons/fa";
+import { IoColorPaletteSharp } from "react-icons/io5";
+
 
 import { SiJquery } from "react-icons/si";
 import { FaGitSquare, FaReact } from "react-icons/fa";
@@ -37,25 +41,36 @@ export default function SkillsHome() {
       >
         My Toolbox
       </span>
-      <div className=" w-full flex flex-row gap-6 items-center justify-center">
+      <div className=" w-full flex flex-row gap-6 items-start justify-center">
 
         <SkillsCard
+        ImageIcon={<FaLaptopCode/>}
         heading={'Frontend Development'}
         skill1={'Html'}
         skill2={'CSS'}
         skill3={'JavaScript'}
         skill4={'SCSS'}/>
         <SkillsCard
+         ImageIcon={<FaReact/>}
         heading={'React'}
         skill1={'Hooks'}
-        skill2={'Context API'}
-        skill3={'State and Props'}
-        skill4={'Redux'}/>
+        skill2={'State and Props'}
+        skill3={'Redux & Context API'}
+        skill4={'Typescript'} />
         <SkillsCard
+        ImageIcon={<IoColorPaletteSharp/>}
         heading={'UI Frameworks'}
         skill1={'TailwindCSS'}
         skill2={'MaterialUI'}
         skill3={'Bootstrap'}/>
+        <SkillsCard
+        ImageIcon={<IoColorPaletteSharp/>}
+        heading={'Other Tools'}
+        skill1={'GitHub'}
+        skill2={'API Intergration'}
+        skill3={'Postman API'}
+        skill4={'Responsive Designing'}
+        />
               </div>
       <div className=" w-full flex flex-row  border-2 p-10  bg-gray-200">
         {/* <div className=' bg-green-400 w-1/3'>What are my stacks</div> */}
