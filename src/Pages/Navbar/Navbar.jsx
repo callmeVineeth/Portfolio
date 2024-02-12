@@ -3,10 +3,12 @@ import Nav from "./Nav.css";
 import { DataContext } from "../../DataContext";
 import { MdLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
+import { motion, useScroll } from "framer-motion"
 
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
+  const { scrollYProgress } = useScroll();
   const { darkMode, setDarkMode } = useContext(DataContext);
   const [show, handleShow] = useState(false);
 
@@ -31,14 +33,15 @@ function Navbar() {
   return (
     <div
       className={`${show ? 'block' : 'hidden'}  ${
-        darkMode && " bg-black text-white"
-      }  navbar mt-4 md:mt-0 bg-white text-black w-full  rounded-full md:rounded-sm fixed  transition-all 
-                 duration-1000 md:h-20 flex items-center md:justify-around`}
+        darkMode && " "
+      }  navbar bg-white text-black border-b-2 border-black w-full uppercase  fixed  transition-all 
+      duration-1000 md:h-20 flex flex-col items-center md:justify-around`}
     >
+      <div className=" w-full flex flex-col h-20 items-center justify-center">
    
       <div className=" flex flex-row">
-        <ul className=" flex flex-row gap-3 md:gap-6 text-lg md:text-xl font-bold">
-          <li className=" cursor-pointer">
+        <ul className=" flex flex-row gap-3 md:gap-6 text-sm md:text-lg ">
+          <li className=" cursor-pointer hover:opacity-60 ">
             <Link
               to="homeSection"
               smooth={true}
@@ -51,7 +54,7 @@ function Navbar() {
               home
             </Link>
           </li>
-          <li className=" cursor-pointer">
+          <li className=" cursor-pointer hover:opacity-60">
             <Link
               to="projectSection"
               smooth={true}
@@ -64,7 +67,7 @@ function Navbar() {
               projects
             </Link>
           </li>
-          <li className=" cursor-pointer">
+          <li className=" cursor-pointer hover:opacity-60">
             <Link
               to="skillSection"
               smooth={true}
@@ -77,7 +80,7 @@ function Navbar() {
             skills
             </Link>
           </li>
-          <li className=" cursor-pointer">
+          <li className=" cursor-pointer hover:opacity-60">
             <Link
               to="contactSection"
               smooth={true}
@@ -106,6 +109,9 @@ function Navbar() {
           )}
         </div>
       </div>
+
+    </div>
+      <motion.div className=" w-full bg-red-700 rounded-full h-2 " style={{ scaleX: scrollYProgress, backgroundColor: 'red' }}></motion.div>
     </div>
   );
 }

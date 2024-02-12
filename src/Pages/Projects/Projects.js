@@ -8,6 +8,7 @@ import elearning from '../../Assets/elearning.png';
 import spaceTourism from '../../Assets/Space Tourism.gif';
 import { DataContext } from '../../DataContext';
 import { Link } from 'react-router-dom';
+import MyWorks from './MyWorks';
 
 function Projects() {
   const { darkMode, setDarkMode } = useContext(DataContext);
@@ -23,16 +24,18 @@ function Projects() {
     { id: 1, link: '/movieApp', sampleImg: movieapp, content: 'An unofficial Netflix clone' },
     { id: 2, link: '/globalChronicle', sampleImg: newsapp, content: 'Real time news website' },
     { id: 3, link: '/savora', sampleImg: foodapp, content: 'Restaurant website' },
-    { id: 4, link: '/eduMentor', sampleImg: elearning, content: 'EduMentor - "Learn Anytime Anywhere' },
+    { id: 4, link: '/eduMentor', sampleImg: elearning, content: 'EduMentor -E Learning Platform' },
     { id: 5, link: '/spaceTour', sampleImg: spaceTourism, content: 'Space Tour website' },
   ];
 
   return (
-    <div className={`transition-colors duration-500 mt-12 md:mt-32 flex flex-col items-center font-serif justify-center px-10`}>
-      <span className={` ${darkMode && 'text-violet-700 '} w-full text-4xl md:text-5xl px-20`}>
-        Projects.
-      </span>
-      <div className='flex flex-wrap mt-8 md:mt-10'>
+    <div className={`transition-colors duration-500 w-full mt-12 md:mt-32 flex flex-col items-center font-serif justify-center md:px-10`}>
+      <div className={` ${darkMode && 'text-violet-700 '} text-center w-full text-4xl md:text-5xl px-20`}>
+        My Works
+      </div>
+       <MyWorks/>
+       <h1 className=' text-md md:text-xl font-bold tracking-wider hover:border-b-2 px-3 cursor-pointer '>Explore some of my projects here</h1>
+      <div className='flex flex-wrap mt-8 md:mt-10 md:px-8'>
         <div className='flex-wrap gap-1 grid grid-cols-1 md:grid-cols-3 '>
           <AnimatePresence>
             {projectTilesData.map(tile => (

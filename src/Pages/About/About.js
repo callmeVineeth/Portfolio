@@ -5,7 +5,7 @@ function About() {
   return (
     <div className=" px-4 font-serif">
       <div className=" flex flex-col-reverse justify-evenly items-center md:flex-row-reverse">
-        <div className=" w-full md:w-1/2 h-full px-12  md:px-20 text-xl ">
+        <div className=" w-full md:w-1/2 h-full px-2  md:px-20 text-xl ">
         <h1 className=" text-4xl md:text-5xl py-4 my-10 border-b-2 w-max border-black"> About Me</h1>
           <p className=" leading-9">
               I’m a junior front-end developer looking for a new role in an exciting
