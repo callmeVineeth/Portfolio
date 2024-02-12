@@ -28,19 +28,28 @@ function HomePage() {
             I Love Developing Beautiful Websites.
             </span>
            
-            <Link to='aboutSection'
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-              offset={-80}>
-                 <button className="btn text-xl border-2 hover:text-white border-black  md:text-2xl mt-6 w-max h-16 p-4 
-            font-bold transition-all duration-500 uppercase">
-                About me
-            </button>
-                </Link>
+           <div className=" flex flex-row gap-3 text-sm md:text-lg">
+              <Link to='aboutSection'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>
+                   <button className="btn  border-2 hover:text-white border-black  mt-6 w-max h-10 p-2 
+              f transition-all duration-500 uppercase">
+                  About me
+              </button>
+                  </Link><button className="btn  border-2 hover:text-white border-black  mt-6 w-max h-10 p-2 
+              f transition-all duration-500 uppercase">
+                  GitHub
+              </button>
+                  <button className="btn  border-2 hover:text-white border-black  mt-6 w-max h-10 p-2 
+              f transition-all duration-500 uppercase">
+                  Resume
+              </button>
+           </div>
          </div>
-          <div className=" border-b-2 border-black h-10 w-2/3 md:mt-6">
+          <div className=" border-b-2 border-gray-300 h-10 w-2/3 md:mt-6">
         </div>
 
       </section>
