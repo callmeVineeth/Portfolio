@@ -50,7 +50,7 @@ export default function SkillsHome() {
         skill2={'CSS'}
         skill3={'JavaScript'}
         skill4={'SCSS'}/>
-        <SkillsCard
+        <SkillsCard                                                  
          ImageIcon={<FaReact/>}
         heading={'React'}
         skill1={'Hooks'}

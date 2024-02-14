@@ -30,7 +30,7 @@ const{darkMode} = useContext(DataContext);
           </div>
            
 
-       <div className='w-full text-center mt-10 text-sm md:text-lg'>Copyright © 2024. All Rights Reserved.</div>
+       <div className='w-full text-center opacity-70 mt-10 text-sm md:text-lg'>Copyright © 2024. All Rights Reserved.</div>
     </div>
   )
 }
