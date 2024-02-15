@@ -12,13 +12,13 @@ function HomePage() {
   const { darkMode } = useContext(DataContext);
 
   const handleDownloadResume = () => {
-    const resumePath = process.env.PUBLIC_URL + '/VineethPV_Resume (3).pdf';
+    const resumePath = process.env.PUBLIC_URL + '/VineethPV_Resume.pdf';
 
                                                                    
     // Create a temporary anchor element
     const anchorElement = document.createElement('a');
     anchorElement.href = resumePath;
-    anchorElement.download = 'resume.pdf';
+    anchorElement.download = 'vineeth.pdf';
   
     // Add a temporary attribute to the anchor element
     anchorElement.setAttribute('target', '_blank');
