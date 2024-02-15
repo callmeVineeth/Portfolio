@@ -12,22 +12,18 @@ function HomePage() {
   const { darkMode } = useContext(DataContext);
 
   const handleDownloadResume = () => {
-    const resumePath = process.env.PUBLIC_URL + '/VineethPV_Resume.pdf';
+    const resumePath = process.env.PUBLIC_URL + 'VINEETH P V - Resume.pdf';
 
                                                                    
-    // Create a temporary anchor element
     const anchorElement = document.createElement('a');
     anchorElement.href = resumePath;
     anchorElement.download = 'vineeth.pdf';
   
-    // Add a temporary attribute to the anchor element
     anchorElement.setAttribute('target', '_blank');
     anchorElement.setAttribute('rel', 'noopener noreferrer');
   
-    // Append the anchor element to the document body
     document.body.appendChild(anchorElement);
   
-    // Simulate a click on the anchor element to trigger download
     anchorElement.click();
   };
   
