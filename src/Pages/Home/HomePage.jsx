@@ -24,7 +24,7 @@ function HomePage() {
   
     document.body.appendChild(anchorElement);
   
-    anchorElement.click();
+    // anchorElement.click();
   };
   
   
