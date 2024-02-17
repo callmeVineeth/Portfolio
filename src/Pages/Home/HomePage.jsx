@@ -24,7 +24,7 @@ function HomePage() {
   
     document.body.appendChild(anchorElement);
   
-    // anchorElement.click();
+    anchorElement.click();
   };
   
   
@@ -33,16 +33,22 @@ function HomePage() {
     <div className=" p-2 flex flex-col-reverse md:flex-row font-serif">
       <section className=" text-3xl md:text-5xl w-full py-44 pl-12 flex flex-col items-center">
 
-         <div className=" flex flex-col justify-center items-center">
+         <div className=" flex flex-col justify-center items-center ">
             <span className="">
               Hi,</span>
               <span>
                I'm Vineeth 
             </span>
-            <span className=" text-3xl">
-            React Developer based in India.
+            <div className=" w-36 h-36 bg-green-400 rounded-full flex items-center justify-center">
+              <div className=" w-32 h-32 bg-red-400 rounded-full flex items-center justify-center">
+
+              image
+              </div>
+            </div>
+            <span className="">
+           Frontend || React Developer Based in India.
             </span>
-            <span className=" text-3xl">
+            <span className="">
             I Love Developing Beautiful Websites.
             </span>
            
@@ -74,7 +80,7 @@ function HomePage() {
 
       </section>
      
-      <GridImageDisplay/>
+      {/* <GridImageDisplay/> */}
      
 
     </div>

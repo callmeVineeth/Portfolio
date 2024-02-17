@@ -54,8 +54,9 @@ body{
 
  
   .bg_pattern{
-      background:linear-gradient(to bottom, rgba(38, 39, 38, 0.2), rgb(4, 19, 2));
-      /* url('/src/Assets/Grid_background.jpg'); */
+      background:
+      linear-gradient(to bottom, rgba(240, 247, 240, 0.2), rgb(4, 19, 2)),
+      url('/src/Assets/Grid_background.png');
       background-repeat: no-repeat;
       background-size: 100vw 100vh;   
       background-position: top;

@@ -23,7 +23,7 @@ function About() {
               
           </p>
         </div>
-        <div className=" bg-green-500  md:w-1/3   object-cover">
+        <div className=" bg-green-500  md:w-3/12   object-cover">
           <img
             src={profilePic}
             alt="profilePic"
