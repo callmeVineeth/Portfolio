@@ -28,11 +28,11 @@ function HomePage() {
   
 
   return(
-    <div className=" p-2 flex flex-col-reverse md:flex-row font-serif">
-      <section className=" text-3xl md:text-5xl w-full py-32  flex flex-col items-center">
+    <div className=" p-2 flex font-serif">
+      <section className="homeSection text-3xl md:text-5xl bg-transparent w-full py-32  flex flex-col items-center">
 
          <div className=" flex flex-col justify-center items-center ">
-            <span className="">
+            <span className=" text-6xl">
               Hi,</span>
               <span>
                I'm Vineeth 
@@ -43,8 +43,8 @@ function HomePage() {
               
               </div>
             </div>
-            <span className="  text-center">
-           Frontend || React Developer Based in India.
+            <span className="  text-red-400 text-center">
+           Frontend || React Developer</span>  <span> Based in India. 
             </span>
             <span className="  text-center">
             I Love Developing Beautiful Websites.
