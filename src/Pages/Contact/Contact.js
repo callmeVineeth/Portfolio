@@ -23,7 +23,7 @@ const{darkMode} = useContext(DataContext);
               <span className=' mt-2'>
                 Find me on <a href='https://github.com/callmeVineeth' target='_blank' className=' text-blue-700'>github</a> or
                 <a target='_blank' href="https://mail.google.com/mail/?view=cm&fs=1&to=vineethpv024@gmail.com" className=' text-blue-700'> email </a>
-             <span className=' text-blue-700 '> vineethpv024@gmail.com </span>  </span>
+             <span className=' text-blue-700  cursor-pointer'> vineethpv024@gmail.com </span>  </span>
 
             </div>
                <SocialMedias/>     

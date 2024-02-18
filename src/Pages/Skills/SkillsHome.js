@@ -67,9 +67,9 @@ export default function SkillsHome() {
         <SkillsCard
         ImageIcon={<IoColorPaletteSharp/>}
         heading={'Other Tools'}
-        skill1={'GitHub'}
-        skill2={'API Intergration'}
-        skill3={'Postman API'}
+        skill1={'GitHub'} 
+        skill2={'API Intergration'} 
+        skill3={'Postman API'} 
         skill4={'Responsive Designing'}
         />
               </div>

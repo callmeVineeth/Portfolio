@@ -38,10 +38,9 @@ function HomePage() {
                I'm Vineeth 
             </span>
             <div className=" w-36 h-36 border-y-2 border-b-8  border-gray-300 hover:border-x-2 hover:border-b-4 transition-all duration-100 border-x-4  rounded-full flex items-center justify-center">
-              <div className=" w-32 h-32 roundedImage rounded-full flex items-center justify-center">
+              <div className=" w-32 h-32 roundedImage rounded-full cursor-pointer flex items-center justify-center">
 
-              
-              </div>
+             </div>
             </div>
             <span className="  text-red-400 text-center">
            Frontend || React Developer</span>  <span> Based in India. 
@@ -64,7 +63,9 @@ function HomePage() {
                   </Link>
                   <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
+                <a href="https://github.com/callmeVineeth"  target="_blank">
                   GitHub
+                  </a>
               </button>
                   <button
                   onClick={handleDownloadResume}
