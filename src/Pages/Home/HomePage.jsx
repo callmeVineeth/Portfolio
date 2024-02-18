@@ -45,10 +45,10 @@ function HomePage() {
               
               </div>
             </div>
-            <span className="">
+            <span className="  text-center">
            Frontend || React Developer Based in India.
             </span>
-            <span className="">
+            <span className="  text-center">
             I Love Developing Beautiful Websites.
             </span>
            

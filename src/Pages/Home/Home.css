@@ -41,6 +41,7 @@
 
     /* background-color: rebeccapurple; */    
 }
+
 .roundedImage{
     background: url('../../Assets/welcomeImage.png');
     background-size: cover;
@@ -49,12 +50,12 @@
 }
 
 
-.roundedImage
+/* .roundedImage
 @media (max-width:600px) {
     .gridImage{ 
     width: 80%;
     }
-}
+} */
 
 
 
