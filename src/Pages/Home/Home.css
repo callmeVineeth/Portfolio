@@ -41,7 +41,15 @@
 
     /* background-color: rebeccapurple; */    
 }
+.roundedImage{
+    background: url('../../Assets/welcomeImage.png');
+    background-size: cover;
+    background-position: center center;
 
+}
+
+
+.roundedImage
 @media (max-width:600px) {
     .gridImage{ 
     width: 80%;

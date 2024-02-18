@@ -33,16 +33,16 @@ function HomePage() {
     <div className=" p-2 flex flex-col-reverse md:flex-row font-serif">
       <section className=" text-3xl md:text-5xl w-full py-44 pl-12 flex flex-col items-center">
 
-         <div className=" flex flex-col justify-center items-center ">
+         <div className=" flex flex-col justify-center items-center box__shadow ">
             <span className="">
               Hi,</span>
               <span>
                I'm Vineeth 
             </span>
-            <div className=" w-36 h-36 bg-green-400 rounded-full flex items-center justify-center">
-              <div className=" w-32 h-32 bg-red-400 rounded-full flex items-center justify-center">
+            <div className=" w-36 h-36 border-black border-x-4  rounded-full flex items-center justify-center">
+              <div className=" w-32 h-32 roundedImage rounded-full flex items-center justify-center">
 
-              image
+              
               </div>
             </div>
             <span className="">

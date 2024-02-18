@@ -18,18 +18,15 @@ body{
   .skills_list{
     color: blue;
   }
-
+/* 
   .box__shadow{
-    border: 1px solid rgb(0 0 0 / 8%);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border: 1px solid rgb(0 0 0 / 8%);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: 0.5s ease-in-out;
     transform: scale(1);
-  }
+  } */
 
-  .box__shadow:hover{
-    transform: scale(1.04);
-    
-  }
+ 
 
   .App{
     display: flex;
@@ -55,8 +52,8 @@ body{
  
   .bg_pattern{
       background:
-      linear-gradient(to bottom, rgba(240, 247, 240, 0.2), rgb(4, 19, 2)),
-      url('/src/Assets/Grid_background.png');
+      linear-gradient(to bottom, rgba(240, 247, 240, 0.2), rgb(4, 19, 2));
+      /* url('/src/Assets/Grid_background.png'); */
       background-repeat: no-repeat;
       background-size: 100vw 100vh;   
       background-position: top;
