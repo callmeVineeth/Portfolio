@@ -59,11 +59,11 @@ function HomePage() {
                 spy={true}
                 exact="true"
                 offset={-80}>
-                   <button className="btn  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
+                   <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
                   About me
               </button>
-                  </Link><button className="btn  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
+                  </Link><button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
                   GitHub
               </button>

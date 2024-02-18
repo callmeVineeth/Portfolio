@@ -17,7 +17,7 @@ function About() {
               outdoors. I love being out in nature whether that’s going for a walk,
               run or cycling. I’d love you to check out my work.
               <br/>
-              <div className=" btn w-max p-2 hover:text-white transition-all duration-200 border-2 border-black">
+              <div className=" button w-max p-2 hover:text-white transition-all duration-200 border-2 border-black">
                Read More
               </div>
               
