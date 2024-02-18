@@ -52,24 +52,24 @@ function HomePage() {
             I Love Developing Beautiful Websites.
             </span>
            
-           <div className=" flex flex-row gap-3 text-sm md:text-lg">
+           <div className=" flex flex-row gap-3 font-semibold text-sm md:text-lg">
               <Link to='aboutSection'
                 smooth={true}
                 duration={500}
                 spy={true}
                 exact="true"
                 offset={-80}>
-                   <button className="btn  border-2 hover:text-white border-black  mt-6 w-max h-10 p-2 
+                   <button className="btn  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
                   About me
               </button>
-                  </Link><button className="btn  border-2 hover:text-white border-black  mt-6 w-max h-10 p-2 
+                  </Link><button className="btn  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
                   GitHub
               </button>
                   <button
                   onClick={handleDownloadResume}
-                   className="btn  border-2 hover:text-white border-black  mt-6 w-max h-10 p-2 
+                   className="btn  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
                   Resume
               </button>
