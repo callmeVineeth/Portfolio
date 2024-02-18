@@ -32,6 +32,7 @@ function AnimatedRoutes() {
                 <>
                 <Navbar/>
                 <BgPattern/>
+                
                <div className='sections' id='homeSection'><HomePage/>   </div>
                <div className='sections' id='aboutSection'> <About/>   </div>
                <div className='sections' id='projectSection'><Projects/>   </div>

@@ -95,7 +95,7 @@ function Navbar() {
           </li>
         </ul>
 
-        <div className=" ml-8 md:ml-20">
+        {/* <div className=" ml-8 md:ml-20">
           {darkMode ? (
             <span className=" absolute text-2xl" onClick={handleMode}>
               
@@ -107,11 +107,11 @@ function Navbar() {
               <MdLightMode />
             </span>
           )}
-        </div>
+        </div> */}
       </div>
 
     </div>
-      <motion.div className=" w-full bg-red-700 rounded-full h-2 " style={{ scaleX: scrollYProgress, backgroundColor: 'red' }}></motion.div>
+      <motion.div className=" w-full bg-red-400 rounded-full h-2 " style={{ scaleX: scrollYProgress }}></motion.div>
     </div>
   );
 }

@@ -77,10 +77,10 @@ export default function SkillsHome() {
         {/* <div className=' bg-green-400 w-1/3'>What are my stacks</div> */}
 
 
-        <div className=" w-1/2 text-sm text-black md:text-2xl flex items-center"> My Stacks</div>
+        <div className=" w-1/2 text-sm text-black md:text-2xl font-bold flex items-center"> My Stacks</div>
         <div className="scroller flex  flex-row" data-speed="fast">
-          <ul className="tag-list scroller__inner  text-red-600">
-            <li className="box text-xl">
+          <ul className="tag-list scroller__inner  text-red-600 gap-32 text-6xl">
+            <li className="box ">
               <FaGitSquare  />
             </li>
             <li className="box">

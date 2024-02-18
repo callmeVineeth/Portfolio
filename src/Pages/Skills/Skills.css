@@ -79,6 +79,11 @@
   
   /* for testing purposed to ensure the animation lined up correctly */
   .test {
-    background: red !important;
+    background: red 4!important;
   }
   
+  /* .box{
+    width: 100px;
+    height: 100px;
+    font-size: larger;
+  } */
