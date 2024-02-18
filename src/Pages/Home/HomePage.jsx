@@ -31,9 +31,9 @@ function HomePage() {
 
   return(
     <div className=" p-2 flex flex-col-reverse md:flex-row font-serif">
-      <section className=" text-3xl md:text-5xl w-full py-44 pl-12 flex flex-col items-center">
+      <section className=" text-3xl md:text-5xl w-full py-32  flex flex-col items-center">
 
-         <div className=" flex flex-col justify-center items-center box__shadow ">
+         <div className=" flex flex-col justify-center items-center ">
             <span className="">
               Hi,</span>
               <span>
@@ -52,7 +52,7 @@ function HomePage() {
             I Love Developing Beautiful Websites.
             </span>
            
-           <div className=" flex flex-row gap-3 font-semibold text-sm md:text-lg">
+           <div className=" flex flex-row  font-sans gap-3 font-semibold text-sm md:text-lg">
               <Link to='aboutSection'
                 smooth={true}
                 duration={500}
@@ -63,7 +63,8 @@ function HomePage() {
               f transition-all duration-500 uppercase">
                   About me
               </button>
-                  </Link><button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
+                  </Link>
+                  <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
                   GitHub
               </button>
