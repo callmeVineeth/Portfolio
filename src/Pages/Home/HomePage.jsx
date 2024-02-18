@@ -69,7 +69,7 @@ function HomePage() {
               </button>
                   <button
                   onClick={handleDownloadResume}
-                   className="btn  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
+                   className="button  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
                   Resume
               </button>
