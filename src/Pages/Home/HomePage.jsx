@@ -1,8 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { DataContext } from "../../DataContext";
-// import Button from '../CustomComponents/Button'
 import {motion} from 'framer-motion'
-import GridImageDisplay from "./GridImageDisplay";
 import { Link } from "react-scroll";
 import Home from './Home.css'
 
@@ -80,8 +78,6 @@ function HomePage() {
         </div>
 
       </section>
-     
-      {/* <GridImageDisplay/> */}
      
 
     </div>
