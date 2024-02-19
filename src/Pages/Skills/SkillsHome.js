@@ -42,7 +42,7 @@ export default function SkillsHome() {
       >
         My Toolbox 
       </span>
-      <div className=" w-10/12  p-6 gap-6 items-start justify-center grid grid-cols-1 md:grid-cols-4">
+      <div className=" w-10/12  p-6 gap-6 items-start justify-center flex flex-wrap">
 
         <SkillsCard
         ImageIcon={<FaLaptopCode/>}
