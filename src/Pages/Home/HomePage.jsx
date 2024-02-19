@@ -10,11 +10,12 @@ function HomePage() {
   const { darkMode } = useContext(DataContext);
 
   const handleDownloadResume = () => {
-    try {
-      const resumePath = process.env.PUBLIC_URL + 'VINEETH P V - Resume.pdf';
+    try{
+      const resumePath = process.env.PUBLIC_URL + '/VINEETH P V - Resume.pdf';
       const anchorElement = document.createElement('a');
       anchorElement.href = resumePath;
       anchorElement.download = 'vineeth.pdf';
+
       anchorElement.setAttribute('target', '_blank');
       anchorElement.setAttribute('rel', 'noopener noreferrer');
       document.body.appendChild(anchorElement);
@@ -22,6 +23,7 @@ function HomePage() {
     } catch (error) {
       console.error('Error downloading resume:', error);
     }
+
   };
   
   
