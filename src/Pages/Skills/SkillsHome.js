@@ -17,6 +17,7 @@ import { FaGitAlt } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { SiMui } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
+import { TbBrandRedux } from "react-icons/tb";
 
 import { FaArrowRight } from "react-icons/fa6";
 import { DataContext } from "../../DataContext";
@@ -79,33 +80,39 @@ export default function SkillsHome() {
 
         <div className=" w-1/2 text-sm text-black md:text-2xl font-bold flex items-center"> My Stacks</div>
         <div className="scroller flex  flex-row" data-speed="fast">
-          <ul className="tag-list scroller__inner  text-red-600 gap-32 text-6xl">
-            <li className="box ">
+          <ul className="tag-list scroller__inner  text-red-600 gap-32 text-6xl transition">
+            <li className="box text-black  hover:scale-125">
               <FaGitSquare  />
             </li>
-            <li className="box">
+            <li className="box text-blue-500  hover:scale-125">
               <FaReact  />
             </li>
-            <li className="box">
+            <li className="box  text-orange-600 hover:scale-125">
               <IoLogoHtml5  />
             </li>
-            <li className="box">
-              <IoLogoJavascript  />
+            <li className="box text-amber-400 hover:scale-125">
+              <IoLogoJavascript />
             </li>
-            <li className="box">
+            <li className="box  text-sky-500 hover:scale-125">
               <SiTailwindcss  />
             </li>
-            <li className="box">
+            <li className="box  text-violet-700 hover:scale-125">
               <FaBootstrap  />
             </li>
-            <li className="box">
+            <li className="box  text-black hover:scale-125">
               <FaSquareGithub  />
             </li>
-            <li className="box">
+            <li className="box  text-blue-500 hover:scale-125">
               <SiMui  />
             </li>
-            <li className="box">
+            <li className="box  text-blue-600 hover:scale-125">
               <TbBrandVscode  />
+              </li>
+            <li className="box  text-violet-600 hover:scale-125">
+              <TbBrandRedux />
+              </li>
+            <li className="box  text-rose-600 hover:scale-125">
+              <SiJest />
             </li>
           </ul>
         </div>

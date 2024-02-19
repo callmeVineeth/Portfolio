@@ -6,8 +6,8 @@ function About() {
     <div className=" px-4 font-serif">
       <div className=" flex flex-col-reverse justify-evenly items-center md:flex-row-reverse">
         <div className=" w-full md:w-1/2 h-full px-2  md:px-20 text-xl ">
-        <h1 className=" text-4xl md:text-5xl py-4 my-10 border-b-2 w-max border-black"> About Me</h1>
-          <p className=" leading-8">
+        <h1 className=" text-3xl md:text-5xl py-4 my-2 md:my-10 border-b-2 w-max border-black"> About Me</h1>
+          <p className=" text-md md:text-xl md:leading-8">
               I’m a junior front-end developer looking for a new role in an exciting
               company. I focus on writing accessible HTML, using modern CSS
               practices and writing clean JavaScript. When writing JavaScript code,

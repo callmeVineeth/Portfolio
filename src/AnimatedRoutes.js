@@ -1,7 +1,5 @@
 import React from 'react'
 import HomePage from './Pages/Home/HomePage.jsx';
-// import Navbar from './Pages/Navbar/Navbar';
-// import { DataProvider } from './DataContext';
 import SkillsHome from './Pages/Skills/SkillsHome';
 import Projects from './Pages/Projects/Projects';
 import Contact from './Pages/Contact/Contact';
@@ -17,7 +15,6 @@ import Edumentor from './Project _Previews/Edumentor/Edumentor';
 import {AnimatePresence} from 'framer-motion'
 import Navbar from './Pages/Navbar/Navbar';
 import About from './Pages/About/About.js';
-import BgPattern from './Pages/BgPattern/BgPattern.js';
 
 
 
@@ -31,7 +28,7 @@ function AnimatedRoutes() {
               <Route path='/' element={
                 <>
                 <Navbar/>
-                <BgPattern/>
+            
                 
                <div className='sections' id='homeSection'><HomePage/>   </div>
                <div className='sections' id='aboutSection'> <About/>   </div>
