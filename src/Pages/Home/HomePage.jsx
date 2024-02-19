@@ -10,19 +10,18 @@ function HomePage() {
   const { darkMode } = useContext(DataContext);
 
   const handleDownloadResume = () => {
-    const resumePath = process.env.PUBLIC_URL + 'VINEETH P V - Resume.pdf';
-
-                                                                   
-    const anchorElement = document.createElement('a');
-    anchorElement.href = resumePath;
-    anchorElement.download = 'vineeth.pdf';
-  
-    anchorElement.setAttribute('target', '_blank');
-    anchorElement.setAttribute('rel', 'noopener noreferrer');
-  
-    document.body.appendChild(anchorElement);
-  
-    anchorElement.click();
+    try {
+      const resumePath = process.env.PUBLIC_URL + 'VINEETH P V - Resume.pdf';
+      const anchorElement = document.createElement('a');
+      anchorElement.href = resumePath;
+      anchorElement.download = 'vineeth.pdf';
+      anchorElement.setAttribute('target', '_blank');
+      anchorElement.setAttribute('rel', 'noopener noreferrer');
+      document.body.appendChild(anchorElement);
+      anchorElement.click();
+    } catch (error) {
+      console.error('Error downloading resume:', error);
+    }
   };
   
   
