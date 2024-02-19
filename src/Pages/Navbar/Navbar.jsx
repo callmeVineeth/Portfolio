@@ -113,7 +113,7 @@ function Navbar() {
       </div>
 
     </div>
-      <motion.div className=" w-full bg-red-400 rounded-full h-2 " style={{ scaleX: scrollYProgress }}></motion.div>
+      <motion.div className=" w-full bg-red-600 rounded-full h-2 " style={{ scaleX: scrollYProgress }}></motion.div>
     </div>
   );
 }

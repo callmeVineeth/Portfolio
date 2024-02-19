@@ -43,7 +43,7 @@ function HomePage() {
 
              </div>
             </div>
-            <span className="  text-red-400 text-center">
+            <span className="coloredText  text-red-400 text-center">
            Frontend || React Developer</span>  <span> Based in India. 
             </span>
             <span className="  text-center">

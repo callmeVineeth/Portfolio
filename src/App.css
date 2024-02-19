@@ -154,3 +154,9 @@ body{
     width: 100%;
   }
   
+  .coloredText{
+    background-image: linear-gradient(to right, #f31607, #d40e07);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+  }
