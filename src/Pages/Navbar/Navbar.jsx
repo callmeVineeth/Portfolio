@@ -95,6 +95,8 @@ function Navbar() {
           </li>
         </ul>
 
+        {/*--------------------------- darkMode  option --------------- */}
+
         {/* <div className=" ml-8 md:ml-20">
           {darkMode ? (
             <span className=" absolute text-2xl" onClick={handleMode}>

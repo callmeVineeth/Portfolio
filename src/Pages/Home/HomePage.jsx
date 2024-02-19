@@ -30,7 +30,7 @@ function HomePage() {
 
   return(
     <div className=" p-2 flex font-serif">
-      <section className="homeSection  text-3xl md:text-5xl bg-transparent w-full py-32  flex flex-col items-center">
+      <section className="homeSection  text-3xl md:text-5xl bg-transparent w-full py-24  flex flex-col items-center">
 
          <div className=" flex flex-col justify-center items-center ">
             <span className=" text-6xl">
