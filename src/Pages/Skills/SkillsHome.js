@@ -40,9 +40,9 @@ export default function SkillsHome() {
           darkMode && " text-red-600"
         }  text-3xl md:text-5xl text-left font-serif w-full px-20`}
       >
-        My Toolbox
+        My Toolbox 
       </span>
-      <div className=" w-10/12 gap-6 items-start justify-center grid grid-cols-1 md:grid-cols-4">
+      <div className=" w-10/12  p-6 gap-6 items-start justify-center grid grid-cols-1 md:grid-cols-4">
 
         <SkillsCard
         ImageIcon={<FaLaptopCode/>}
@@ -81,37 +81,37 @@ export default function SkillsHome() {
         <div className=" w-1/2 text-sm text-black md:text-2xl font-bold flex items-center"> My Stacks</div>
         <div className="scroller flex  flex-row" data-speed="fast">
           <ul className="tag-list scroller__inner  text-red-600 gap-32 text-6xl transition">
-            <li className="box text-black  hover:scale-125">
+            <li className="box text-2xl md:text-6xl text-black  hover:scale-125">
               <FaGitSquare  />
             </li>
-            <li className="box text-blue-500  hover:scale-125">
+            <li className="box text-2xl md:text-6xl text-blue-500  hover:scale-125">
               <FaReact  />
             </li>
-            <li className="box  text-orange-600 hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-orange-600 hover:scale-125">
               <IoLogoHtml5  />
             </li>
-            <li className="box text-amber-400 hover:scale-125">
+            <li className="box text-2xl md:text-6xl text-amber-400 hover:scale-125">
               <IoLogoJavascript />
             </li>
-            <li className="box  text-sky-500 hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-sky-500 hover:scale-125">
               <SiTailwindcss  />
             </li>
-            <li className="box  text-violet-700 hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-violet-700 hover:scale-125">
               <FaBootstrap  />
             </li>
-            <li className="box  text-black hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-black hover:scale-125">
               <FaSquareGithub  />
             </li>
-            <li className="box  text-blue-500 hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-blue-500 hover:scale-125">
               <SiMui  />
             </li>
-            <li className="box  text-blue-600 hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-blue-600 hover:scale-125">
               <TbBrandVscode  />
               </li>
-            <li className="box  text-violet-600 hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-violet-600 hover:scale-125">
               <TbBrandRedux />
               </li>
-            <li className="box  text-rose-600 hover:scale-125">
+            <li className="box text-2xl md:text-6xl  text-rose-600 hover:scale-125">
               <SiJest />
             </li>
           </ul>
