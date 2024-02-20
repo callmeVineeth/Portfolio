@@ -29,12 +29,12 @@ export default function Movie() {
 
   return (
     <AnimatePresence>
-    <motion.div className=' flex flex-col md:flex-row '
-     initial={{opacity:0.4, transitionDuration:2, width:0}}
-     animate={{opacity:1, transitionDuration:10, width:'100%'}}
-     transition={{ duration:1}}
-     exit={{opacity:0.4, transitionDuration: 2, width:0}}
-    >
+    <motion.div
+  className='flex flex-col md:flex-row'
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1, transition: { duration: 0.5, ease: 'easeInOut' } }}
+  exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.5, ease: 'easeInOut' } }}
+>
       <Part1
         title={'Movieflix'}
         liveSite={'https://callmevineeth.github.io/MovieApp/'}  gitCode={'https://github.com/callmeVineeth/MovieApp'}
