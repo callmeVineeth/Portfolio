@@ -35,7 +35,8 @@ function Savora() {
     exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.5, ease: 'easeInOut' } }}
   >
     <Part1
-     title={'Savora'} />
+     title={'Savora'}
+     sitelabel='site under maintenance' />
     
     <Part2 
     projectTitle={'Savora'}  
