@@ -34,6 +34,7 @@ export default function GlobalChronicle() {
         <Part1
          title={'GlobalChronicle'}
          liveSite={'https://github.com/callmeVineeth/Global-Chronicle'} gitCode={'https://github.com/callmeVineeth/Global-Chronicle'}
+         sitelabel='Live'
          />
         
         <Part2 

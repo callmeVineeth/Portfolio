@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaRegFileCode } from 'react-icons/fa6';
 import { IoIosLink } from 'react-icons/io';
 
-function Part1({ title, description, liveSite, gitCode }) {
+function Part1({ title, description, liveSite, gitCode , sitelabel='Live Site'}) {
 
 
   return (
@@ -19,7 +19,7 @@ function Part1({ title, description, liveSite, gitCode }) {
 
         <div className='mt-12 flex flex-col'>
           <span className='text-md font-thin text-blue-900'>View the Project on GitHub:</span>
-          <a className='mt-4 flex flex-row gap-4 text-blue-600 w-44' target='_blank' href={liveSite}><IoIosLink size={23} />Live site</a>
+          <a className='mt-4 flex flex-row gap-4 text-blue-600 w-44' target='_blank' href={liveSite}><IoIosLink size={23} />{sitelabel}</a>
           <a className='flex flex-row gap-4 text-blue-600 w-44' target='_blank' href={gitCode}><FaRegFileCode size={23} />Check Code</a>
         </div>
       </div>
