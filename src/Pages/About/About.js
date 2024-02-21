@@ -1,5 +1,6 @@
 import React from "react";
 import profilePic from "../../Assets/Untitled (480 x 600 px) (260 x 350 px).png";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -17,9 +18,9 @@ function About() {
               outdoors. I love being out in nature whether that’s going for a walk,
               run or cycling. I’d love you to check out my work.
               <br/>
-              <div className=" button w-max p-2 font-sans hover:text-white transition-all duration-200 border-2 border-black">
+              <Link to={'/aboutMe'} className=" button w-max p-2 font-sans hover:text-white transition-all duration-200 border-2 border-black">
                Read More
-              </div>
+              </Link>
               
           </p>
         </div>

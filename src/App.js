@@ -14,7 +14,7 @@ function App() {
     <Router>
       
     
-        <div className={` App ${darkMode && ' bg_pattern  bg_pattern2 text-white '} transition-colors duration-700`}>
+        <div className={` App bg-gray-50 ${darkMode && ' bg_pattern  bg_pattern2 text-white '} transition-colors duration-700`}>
              
              <AnimatedRoutes/>
 
