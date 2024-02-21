@@ -15,7 +15,6 @@ import Edumentor from './Project _Previews/Edumentor/Edumentor';
 import {AnimatePresence} from 'framer-motion'
 import Navbar from './Pages/Navbar/Navbar';
 import About from './Pages/About/About.js';
-import ReadMore from './Pages/About/ReadMore.js';
 
 
 
@@ -39,8 +38,7 @@ function AnimatedRoutes() {
             </>
               } />
             
-              <Route path='/aboutMe' element={<ReadMore/>}>  </Route>
-              
+             
               <Route path='/movieApp' element={<Movie/>}>  </Route>
               <Route path='/globalChronicle' element={<GlobalChronicle/>}>  </Route>
               <Route path='/savora' element={<Savora/>}>  </Route>

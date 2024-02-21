@@ -31,21 +31,11 @@
       var(--_animation-direction, forwards) linear infinite;
   }
   
-  .scroller[data-direction="right"] {
-    --_animation-direction: reverse;
-  }
-  
-  .scroller[data-direction="left"] {
-    --_animation-direction: forwards;
-  }
   
   .scroller[data-speed="fast"] {
     --_animation-duration: 30s;
   }
   
-  .scroller[data-speed="slow"] {
-    --_animation-duration: 60s;
-  }
   
   @keyframes scroll {
     to {
@@ -82,8 +72,15 @@
     background: red 4!important;
   }
   
-  /* .box{
-    width: 100px;
-    height: 100px;
-    font-size: larger;
-  } */
+  .skills{
+    font-family: 'Franklin Gothic Medium';
+    cursor: pointer;
+  }
+
+
+  .skills:hover{
+    transform: scale(1.2);
+    transition:all;
+    transition-duration: 500ms;
+  
+  }

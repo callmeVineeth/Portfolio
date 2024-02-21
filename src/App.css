@@ -18,13 +18,6 @@ body{
   .skills_list{
     color: blue;
   }
-/* 
-  .box__shadow{
-  border: 1px solid rgb(0 0 0 / 8%);
-    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: 0.5s ease-in-out;
-    transform: scale(1);
-  } */
 
 
   .App{
@@ -62,54 +55,6 @@ body{
       
   }
 
-/* 
-  .btn {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    
-  }
-
-
-
-.btn::before{
- content: ' ';
- position: absolute;
- background: rgb(255 0 0);
-
-
- 
- color: white;
- width: 100%;
- height: 100%;
- top: 0;
- left: 0;
- transform: scaleX(0);
- transform-origin: left;
- transition: transform 0.4s ease;
- z-index: 1;
-
-}
-
-.btn:hover::before{
-    transform: scaleX(1);
-}
-
-
-
-.btn:hover {
-    background-color: blueviolet;
-  }
- 
-  
-  .btn .btn-link {
-    color: black;
-    z-index: 99999;
-  } 
-  
-  .btn:hover .btn-link {
-    color: black;
-*/
 
   .button {
     display: inline-block;

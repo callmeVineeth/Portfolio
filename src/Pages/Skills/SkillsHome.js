@@ -79,7 +79,7 @@ export default function SkillsHome() {
 
 
         <div className=" w-1/2 text-sm text-black md:text-2xl font-bold flex items-center"> My Stacks</div>
-        <div className="scroller flex  flex-row" data-speed="fast">
+        <div className="scroller flex flex-col" data-speed="fast">
           <ul className="tag-list scroller__inner  text-red-600 gap-32 text-6xl transition">
             <li className="box text-2xl md:text-6xl text-black  hover:scale-125">
               <FaGitSquare  />
@@ -115,6 +115,21 @@ export default function SkillsHome() {
               <SiJest />
             </li>
           </ul>
+          <div className="scroller" data-speed="fast">
+          <ul className=" tag-list scroller__inner  flex flex-row transition">
+            <li className=" skills bg-blue-600">Html</li>
+            <li className=" skills bg-blue-600">CSS</li>
+            <li className=" skills bg-blue-600">Javascript</li>
+            <li className=" skills bg-blue-600">SCSS</li>
+            <li className=" skills bg-blue-600">React</li>
+            <li className=" skills bg-blue-600">TailwindCSS</li>
+            <li className=" skills bg-blue-600">React</li>
+            <li className=" skills bg-blue-600">MaterialUI</li>
+            <li className=" skills bg-blue-600">API</li>
+            <li className=" skills bg-blue-600">GitHub</li>
+            <li className=" skills bg-blue-600">Bootstrap</li>
+          </ul>
+          </div>
         </div>
         
       </div>
