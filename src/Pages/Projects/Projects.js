@@ -9,7 +9,6 @@ import spaceTourism from '../../Assets/Space Tourism.gif';
 import { DataContext } from '../../DataContext';
 import { Link } from 'react-router-dom';
 import MyWorks from './MyWorks';
-import { useInView } from "react-intersection-observer";
 
 function Projects() {
   const { darkMode, setDarkMode } = useContext(DataContext);
@@ -29,22 +28,9 @@ function Projects() {
     { id: 5, link: '/spaceTour', sampleImg: spaceTourism, content: 'Space Tour website' },
   ];
 
-  const { ref, inView } = useInView({
-    triggerOnce: false,
-    threshold: 0.3,
-  });
 
   return (
-    <motion.div 
-    ref={ref}
-    initial={{ opacity: 0, y: 40 }}
-    animate={{
-      opacity: inView ? 1 : 0, // Fade in when in view, fade out when out of view
-      y: inView ? 0 : 40, // Move up when in view, move down when out of view
-    }}
-    transition={{ duration: 0.5 }}
-
-     className={`transition-colors
+    <div  className={`transition-colors
       duration-500 w-full mt-12 md:mt-32 flex flex-col items-center font-serif justify-center md:px-10`}>
       <div className={` ${darkMode && 'text-red-600'} text-center w-full text-4xl md:text-5xl px-20`}>
         My Works
@@ -69,7 +55,7 @@ function Projects() {
           </AnimatePresence>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
