@@ -29,7 +29,7 @@ function HomePage() {
   
 
   return(
-    <div className=" p-2 flex font-serif">
+    <div className=" p-2 flex font-serif ">
       <section className="homeSection  text-3xl md:text-5xl bg-transparent w-full py-24  flex flex-col items-center">
 
          <div className=" flex flex-col justify-center items-center ">
@@ -37,7 +37,7 @@ function HomePage() {
               Hi,</span>
               <span>
                I'm Vineeth 
-            </span>
+            </span>  
             <div className=" w-36 h-36 border-y-2 border-b-8  border-gray-300 hover:border-x-2 hover:border-b-4 transition-all duration-100 border-x-4  rounded-full flex items-center justify-center">
               <div className=" w-32 h-32 roundedImage rounded-full cursor-pointer flex items-center justify-center">
 

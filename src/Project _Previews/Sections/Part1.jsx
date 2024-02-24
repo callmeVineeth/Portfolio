@@ -8,7 +8,7 @@ function Part1({ title, description, liveSite, gitCode , sitelabel='Live Site'})
 
 
   return (
-    <div className='w-full md:w-1/3 flex flex-col justify-between p-4 bg-white text-black md:ml-32'>
+    <div className='w-full md:w-1/3 flex flex-col justify-between p-5 text-black md:ml-32 bg-white'>
 
       <div className='fixed'><Link to='/'><IoMdArrowBack size={30} /></Link></div>
       <div className='flex flex-col p-12 gap-2'>

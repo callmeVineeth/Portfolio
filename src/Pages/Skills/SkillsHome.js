@@ -73,8 +73,9 @@ export default function SkillsHome() {
         skill3={'Postman API'} 
         skill4={'Responsive Designing'}
         />
-              </div>
-      <div className=" w-full flex flex-row  border-2 p-4 md:p-10  bg-gray-200">
+        </div>
+
+      <div className=" w-11/12 flex flex-row  border-2 p-4 md:p-10  bg-violet-100">
         {/* <div className=' bg-green-400 w-1/3'>What are my stacks</div> */}
 
 

@@ -39,7 +39,6 @@ export default function SpaceTour() {
         
         <Part2 
         projectTitle={'SpaceTour'}   previewVideo1={preview1}  previewVideo2={preview2}
-         aboutProject={''}  
          samImg1={Img1}  samImg2={Img2}  samImg3={Img3}  samImg4={Img4}  samImg5={Img5}  samImg6={Img6} 
          samImg7={Img7} samImg8={Img8} samImg9={Img9} data={SpaceTourData}
 />

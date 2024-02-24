@@ -54,13 +54,14 @@ function Part2({ projectTitle,projectDesc,previewVideo1,previewVideo2,
           {data.map((project, featureIndex)=>(
 <>
   
-            <li>{project.feature1}</li>
-            <li>{project.feature2}</li>
-            <li>{project.feature3}</li>
+            {project.feature1 && (<li>{project.feature1}</li>) }
+            {project.feature2 && (<li>{project.feature2}</li>) }
+            {project.feature3 && (<li>{project.feature3}</li>) }
             {project.feature4 && (<li>{project.feature4}</li>) }
             {project.feature5 && (<li>{project.feature5}</li>) }
             {project.feature6 && (<li>{project.feature6}</li>) }
             {project.feature7 && (<li>{project.feature7}</li>) }
+            {project.feature8 && (<li>{project.feature8}</li>) }
            
 </>
 
@@ -127,8 +128,8 @@ function Part2({ projectTitle,projectDesc,previewVideo1,previewVideo2,
             <span className=" font-bold text-2xl">Feedback</span>
             <div className=" opacity-70">
               In case you have any feedback or questions, 
-              feel free to reach at <span className=" opacity-110 text-blue-800">https://github.com/callmeVineeth</span> and open a new issues on this repo or reach out to me 
-              at <span className=" opacity-110  text-blue-900">vineethpv024@gmail.com</span>
+              feel free to reach at <span className=" cursor-pointer opacity-110 text-blue-800">https://github.com/callmeVineeth</span> and open a new issues on this repo or reach out to me 
+              at <span className=" cursor-pointer opacity-110  text-blue-900">vineethpv024@gmail.com</span>
             </div>
             <span className=" font-extralight opacity-70">Thanks</span>
         </div>

@@ -52,6 +52,7 @@ function Projects() {
                 </motion.div>
               </Link>
             ))}
+               
           </AnimatePresence>
         </div>
       </div>
