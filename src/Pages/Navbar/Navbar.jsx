@@ -34,13 +34,13 @@ function Navbar() {
     <div
       className={`${show ? 'block' : 'hidden'}  ${
         darkMode && " "
-      }  navbar bg-white text-black border-black w-full uppercase  fixed  transition-all 
+      }  navbar bg-violet-400 text-black border-black w-full uppercase  fixed  transition-all 
       duration-1000 md:h-20 flex flex-col items-center md:justify-around`}
     >
       <div className=" w-full flex flex-col h-20 items-center justify-center">
    
       <div className=" flex flex-row">
-        <ul className=" flex flex-row gap-3 md:gap-6 text-sm md:text-lg ">
+        <ul className=" flex flex-row gap-3 md:gap-6 text-sm md:text-lg font-bold tracking-wide ">
           <li className=" cursor-pointer hover:opacity-60 ">
             <Link
               to="homeSection"

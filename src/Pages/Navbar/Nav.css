@@ -1,5 +1,6 @@
 .navbar{
     z-index: 99;
-    border-bottom: 1px solid; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Bottom border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */   
 }
 
