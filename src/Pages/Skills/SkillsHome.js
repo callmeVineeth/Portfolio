@@ -75,11 +75,11 @@ export default function SkillsHome() {
         />
         </div>
 
-      <div className=" w-11/12 flex flex-row  border-2 p-4 md:p-10 bg-gradient-to-t from-violet-400 via-violet-50 to-violet-600">
+      <div className=" w-11/12 flex flex-row  shadow-lg p-4 md:p-10 bg-gradient-to-r from-violet-400 via-violet-100 to-violet-400">
         {/* <div className=' bg-green-400 w-1/3'>What are my stacks</div> */}
 
 
-        <div className=" w-1/2 text-sm text-black md:text-2xl font-bold flex items-center"> My Stacks</div>
+        <div className=" w-1/2 text-md text-black md:text-3xl transform -rotate-90 font-bold flex items-center"> My Stacks</div>
         <div className="scroller flex flex-col" data-speed="fast">
           <ul className="tag-list scroller__inner  text-red-600 gap-32 text-6xl transition">
             <li className="box text-2xl md:text-6xl text-black  hover:scale-125">
