@@ -42,37 +42,53 @@ export default function SkillsHome() {
       >
         My Toolbox 
       </span>
-      <div className=" w-10/12  p-6 gap-6 items-start justify-center flex flex-wrap">
+      <div className=" w-10/12 grid grid-cols-2 grid-rows-2 gap-4 md:gap-12 items-start justify-center ">
 
-        <SkillsCard
-        ImageIcon={<FaLaptopCode/>}
-        heading={'Frontend Development'}
-        skill1={'Html'}
-        skill2={'CSS'}
-        skill3={'JavaScript'}
-        skill4={'SCSS'}/>
-        <SkillsCard                                               
-         ImageIcon={<FaReact/>}
-        heading={'React'}
-        skill1={'Hooks'}
-        skill2={'State and Props'}
-        skill3={'Redux '}
-        skill4={'Context API '}
-        skill5={'Typescript'} />
-        <SkillsCard
-        ImageIcon={<IoColorPaletteSharp/>}
-        heading={'UI Frameworks'}
-        skill1={'TailwindCSS'}
-        skill2={'MaterialUI'}
-        skill3={'Bootstrap'}/>
-        <SkillsCard
-        ImageIcon={<IoColorPaletteSharp/>}
-        heading={'Other Tools'}
-        skill1={'GitHub'} 
-        skill2={'API Intergration'} 
-        skill3={'Postman API'} 
-        skill4={'Responsive Designing'}
-        />
+        <div className=" flex justify-center items-center  md:border-r-2 border-gray-300">
+          <SkillsCard
+          ImageIcon={<FaLaptopCode/>}
+          heading={'Frontend Development'}
+          skill1={'Html'}
+          skill2={'CSS'}
+          skill3={'JavaScript'}
+          skill4={'SCSS'}/>
+        </div>
+
+        <div className=" flex justify-center items-center  md:border-l-2 border-gray-300">
+          
+          <SkillsCard                                               
+           ImageIcon={<FaReact/>}
+          heading={'React'}
+          skill1={'Hooks'}
+          skill2={'State and Props'}
+          skill3={'Redux '}
+          skill4={'Context API '}
+           />
+        </div>
+
+        <div className=" flex justify-center items-center  md:border-r-2 border-gray-300">
+          
+          <SkillsCard
+          ImageIcon={<IoColorPaletteSharp/>}
+          heading={'UI Frameworks'}
+          skill1={'TailwindCSS'}
+          skill2={'MaterialUI'}
+          skill3={'Bootstrap'}
+          skill4={'Responsive Designing'}
+          />
+        </div>
+
+        <div className=" flex justify-center items-center  md:border-l-2 border-gray-300">
+          
+          <SkillsCard
+          ImageIcon={<IoColorPaletteSharp/>}
+          heading={'Other Tools'}
+          skill1={'GitHub'} 
+          skill2={'API Intergration'} 
+          skill3={'Postman API'} 
+          skill4={'VS Code'}
+          />
+        </div>
         </div>
 
       <div className=" w-11/12 flex flex-row shadow-lg p-4 md:p-10 bg-gradient-to-r from-violet-100 via-violet-50 to-tranparent">
