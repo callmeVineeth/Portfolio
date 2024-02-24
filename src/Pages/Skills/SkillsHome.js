@@ -75,7 +75,7 @@ export default function SkillsHome() {
         />
         </div>
 
-      <div className=" w-11/12 flex flex-row  border-2 p-4 md:p-10  bg-violet-100">
+      <div className=" w-11/12 flex flex-row  border-2 p-4 md:p-10 bg-gradient-to-t from-violet-400 via-violet-50 to-violet-600">
         {/* <div className=' bg-green-400 w-1/3'>What are my stacks</div> */}
 
 
