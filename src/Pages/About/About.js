@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../Assets/Untitled (480 x 600 px) (260 x 350 px).png";
+import profilePic from "../../Assets/profileImage.png";
 import { Link } from "react-scroll";
 
 function About() {
