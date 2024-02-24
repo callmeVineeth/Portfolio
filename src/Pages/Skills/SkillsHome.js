@@ -60,9 +60,9 @@ export default function SkillsHome() {
            ImageIcon={<FaReact/>}
           heading={'React'}
           skill1={'Hooks'}
-          skill2={'State and Props'}
+          skill2={'States and Props'}
           skill3={'Redux '}
-          skill4={'Context API '}
+          skill4={'ContextAPI '}
            />
         </div>
 
@@ -85,7 +85,7 @@ export default function SkillsHome() {
           heading={'Other Tools'}
           skill1={'GitHub'} 
           skill2={'API Intergration'} 
-          skill3={'Postman API'} 
+          skill3={'PostmanAPI'} 
           skill4={'VS Code'}
           />
         </div>

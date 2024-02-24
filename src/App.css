@@ -105,3 +105,11 @@ body{
         background-clip: text;
         color: transparent;
   }
+
+  @media (max-width: 639px) {
+    .break-words {
+      word-wrap: break-word;
+    }
+  }
+  
+  
