@@ -42,7 +42,7 @@ export default function SkillsHome() {
       >
         My Toolbox 
       </span>
-      <div className=" w-10/12 grid grid-cols-2 grid-rows-2 gap-4 md:gap-12 items-start justify-center ">
+      <div className=" w-10/12 grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 gap-4 md:gap-12 items-start justify-center ">
 
         <div className=" flex justify-center items-center  md:border-r-2 border-gray-300">
           <SkillsCard
