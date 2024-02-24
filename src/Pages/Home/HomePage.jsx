@@ -38,7 +38,7 @@ function HomePage() {
               <span>
                I'm Vineeth 
             </span>  
-            <div className=" w-36 h-36 border-y-2 border-b-8  border-gray-300 hover:border-x-2 hover:border-b-4 transition-all duration-100 border-x-4  rounded-full flex items-center justify-center">
+            <div className=" w-36 h-36 border-y-2 border-b-8  border-gray-50 hover:border-x-2 hover:border-b-4 transition-all duration-100 border-x-4  rounded-full flex items-center justify-center">
               <div className=" w-32 h-32 roundedImage rounded-full cursor-pointer flex items-center justify-center">
 
              </div>
