@@ -28,11 +28,8 @@ export default function Edumentor() {
 
 
   return (
-    <motion.div
+    <div
   className='flex flex-col md:flex-row'
-  initial={{ opacity: 0, scale: 0.8 }}
-  animate={{ opacity: 1, scale: 1, transition: { duration: 0.5, ease: 'easeInOut' } }}
-  exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.5, ease: 'easeInOut' } }}
 >
         <Part1
          title={'EduMentor'}
@@ -46,6 +43,6 @@ export default function Edumentor() {
          samImg7={Img7} samImg8={Img8} samImg9={Img9}  data={EdumentorData}
 />
       
-    </motion.div>
+    </div>
   )
 }

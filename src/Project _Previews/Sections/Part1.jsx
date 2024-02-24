@@ -3,12 +3,17 @@ import { IoMdArrowBack } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import { FaRegFileCode } from 'react-icons/fa6';
 import { IoIosLink } from 'react-icons/io';
+import { motion } from 'framer-motion';
 
 function Part1({ title, description, liveSite, gitCode , sitelabel='Live Site'}) {
 
 
   return (
-    <div className='w-full md:w-1/3 flex flex-col justify-between p-5 text-black md:ml-32 bg-white'>
+    <motion.div className='w-full md:w-1/3 flex flex-col justify-between p-5 text-black md:ml-32 bg-gray-100'
+    initial={{ y:800, transition:{ duration: 0.9, delay:1} }}
+    animate={{ y:0, transition: { duration: 0.9, ease: 'easeInOut' } }}
+    exit={{  y:-800, transition: { duration: 1, ease: 'easeInOut'} }}
+    >
 
       <div className='fixed'><Link to='/'><IoMdArrowBack size={30} /></Link></div>
       <div className='flex flex-col p-12 gap-2'>
@@ -26,7 +31,7 @@ function Part1({ title, description, liveSite, gitCode , sitelabel='Live Site'})
 
       <div className='opacity-60'>Feedback will be appreciated</div>
 
-    </div>
+    </motion.div>
   );
 }
 

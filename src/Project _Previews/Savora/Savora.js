@@ -28,11 +28,8 @@ function Savora() {
   })
 
   return (
-    <motion.div
+    <div
     className='flex flex-col md:flex-row'
-    initial={{ opacity: 0, scale: 0.8 }}
-    animate={{ opacity: 1, scale: 1, transition: { duration: 0.5, ease: 'easeInOut' } }}
-    exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.5, ease: 'easeInOut' } }}
   >
     <Part1
      title={'Savora'}
@@ -48,7 +45,7 @@ function Savora() {
      data={SavoraData}
 />
   
-</motion.div>
+</div>
   )
 }
 

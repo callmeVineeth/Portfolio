@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import SectionStyle from './SectionStyle.css'
 // import sampleVideo from '../MovieApp/Images/movieApp_preview.gif';
 import samImg from "../../Assets/Space Tourism.gif";
@@ -7,7 +8,11 @@ function Part2({ projectTitle,projectDesc,previewVideo1,previewVideo2,
   samImg1,samImg2,samImg3,samImg4,samImg5,samImg6,samImg7,samImg8,samImg9,data
 }) {
   return (
-    <div className="scroll_bar  w-full h-screen text-md  p-4 md:px-10 md:overflow-y-scroll  bg-white text-black mr-32">
+    <motion.div className="scroll_bar  w-full h-screen text-md  p-4 md:px-10 md:overflow-y-scroll  bg-white text-black mr-32"
+    initial={{ y:-800, transition:{ duration: 1, delay:1} }}
+    animate={{  y:0, transition: { duration: 1, ease: 'easeInOut' } }}
+    exit={{  y:800, transition: { duration: 1.2, ease: 'easeInOut'} }}
+    >
       <div className="  flex flex-col  gap-6">
         {/* <img src={samImg} alt="sampleImg" className=" w-full h-32 top-20 object-cover" /> */}
 
@@ -134,7 +139,7 @@ function Part2({ projectTitle,projectDesc,previewVideo1,previewVideo2,
             <span className=" font-extralight opacity-70">Thanks</span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
