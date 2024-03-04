@@ -38,7 +38,7 @@ function HomePage() {
               <span>
                I'm Vineeth 
             </span>  
-            <div className=" w-36 h-36 border-y-2 border-b-8  border-gray-50 hover:border-x-2 hover:border-b-4 transition-all duration-100 border-x-4  rounded-full flex items-center justify-center">
+            <div className=" w-36 h-36 border-y-2 border-b-8  bg-gradient-to-tr  from-white hover:bg-gradient-to-tr  hover:from-red-300 hover:to-white to-red-400 border-red-400 hover:border-x-2 hover:border-b-4 transition-all duration-100 border-x-4  rounded-full flex items-center justify-center">
               <div className=" w-32 h-32 roundedImage rounded-full cursor-pointer flex items-center justify-center">
 
              </div>
@@ -46,7 +46,7 @@ function HomePage() {
             <span className="coloredText  text-red-400 text-center">
            Frontend || React Developer</span>  <span> Based in India. 
             </span>
-            <span className="  text-center">
+            <span className="  text-center"> 
             I Love Developing Beautiful Websites.
             </span>
            
@@ -59,7 +59,7 @@ function HomePage() {
                 offset={-80}>
                    <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
               f transition-all duration-500 uppercase">
-                  About me
+                  About me 
               </button>
                   </Link>
                   <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
