@@ -1,8 +1,6 @@
 .bg{
     z-index: 9;
     border: 1px solid gainsboro;
-    /* opacity: 50%; */
-    /* transition: all; */
     transform: translate3d(0px, 0px, 0px);
     content-visibility: visible;
     transition-duration: 500ms;
@@ -13,8 +11,6 @@
 .with-animation{
     background-color: red;
     opacity: 0;
-    /* z-index: 100078; */
-    /* position:  */
     
 }
 
@@ -49,16 +45,6 @@
 
 }
 
-
-/* .roundedImage
-@media (max-width:600px) {
-    .gridImage{ 
-    width: 80%;
-    }
-} */
-
-
-
 .with-animation {
     background-position: -100% 0;
     animation: slide-background 2s linear infinite; 
@@ -71,11 +57,58 @@
 }
 
 .grid_cell{
-    /* height: 100px;
-    width: 100px; */
     border :1px solid grey;
 }
 
 .homeSection{
     z-index: 1;
 }
+
+.bgImage{
+    position: absolute;
+    background: url('/public/images/coding-screen.jpg');
+    /* width: 99vw; */
+    height: 92vh;
+    background-position: center center;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -999;
+    /* overflow-x: hidden; */
+}
+
+
+.bgImage::before,
+.bgImage::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 90vw;
+    height: 100%;
+    filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bgImage::before {
+    left: 0;
+}
+
+.bgImage::after {
+    right: 0;
+}
+
+.bgImage::before {
+    z-index: 1; /* Ensure pseudo-elements are below the background image */
+}
+
+.bgImage::after {
+    z-index: 2;
+}
+
+.bgImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+

@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import SocialMedias from './SocialMedias'
 import { DataContext } from '../../DataContext'
 import {motion} from 'framer-motion'
+import contact from './Contact.css'
 
 
 

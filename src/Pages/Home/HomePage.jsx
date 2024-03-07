@@ -1,6 +1,6 @@
-import React, { useEffect, useState, useContext } from "react";
+import React, { useContext } from "react";
 import { DataContext } from "../../DataContext";
-import {motion} from 'framer-motion'
+// import {motion} from 'framer-motion'
 import { Link } from "react-scroll";
 import Home from './Home.css'
 
@@ -29,28 +29,20 @@ function HomePage() {
   
 
   return(
-    <div className=" p-2 flex font-serif ">
-      <section className="homeSection  text-3xl md:text-5xl bg-transparent w-full py-24  flex flex-col items-center">
+    <div className=" flex ">
+      <section className="homeSection text-white bg-transparent w-full py-24 flex flex-col items-center">
 
-         <div className=" flex flex-col justify-center items-center ">
-            <span className=" text-6xl">
-              Hi,</span>
-              <span>
+         <div className=" flex flex-col justify-center items-center mt-36">
+            <span className=" italic text-6xl font-extrabold">
+              Hi,
                I'm Vineeth 
             </span>  
-            <div className=" w-36 h-36 border-y-2 border-b-8  bg-gradient-to-tr  from-white hover:bg-gradient-to-tr  hover:from-red-300 hover:to-white to-red-400 border-red-400 hover:border-x-2 hover:border-b-4 transition-all duration-100 border-x-4  rounded-full flex items-center justify-center">
-              <div className=" w-32 h-32 roundedImage rounded-full cursor-pointer flex items-center justify-center">
-
-             </div>
-            </div>
-            <span className="coloredText  text-red-400 text-center">
-           Frontend || React Developer</span>  <span> Based in India. 
-            </span>
-            <span className="  text-center"> 
-            I Love Developing Beautiful Websites.
+     
+            <span className="text-lg font-mono text-white text-center tracking-widest">
+           FRONT-END REACT DEV BASED IN INDIA 
             </span>
            
-           <div className=" flex flex-row  font-sans gap-3 font-semibold text-sm md:text-lg">
+           <div className=" flex flex-row gap-3 font-semibold text-sm md:text-lg">
               <Link to='aboutSection'
                 smooth={true}
                 duration={500}
@@ -76,8 +68,11 @@ function HomePage() {
               </button>
            </div>
          </div>
-          <div className=" border-b-2 border-gray-300 h-10 w-2/3 md:mt-6">
-        </div>
+
+      </section>
+
+      <section className="bgImage w-full bg-red-500 ">
+      <div class="absolute inset-0  w-full bg-gradient-to-r from-black via-transparent  to-blur-lg"></div>
 
       </section>
      

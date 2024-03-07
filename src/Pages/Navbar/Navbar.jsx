@@ -10,37 +10,22 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function Navbar() {
   const { scrollYProgress } = useScroll();
   const { darkMode, setDarkMode } = useContext(DataContext);
-  const [show, handleShow] = useState(false);
+
 
   const handleMode = () => {
     setDarkMode((PrevState) => !PrevState);
     console.log("mode Clicked", darkMode);
   };
-  useEffect(() => {
-    const ScrollHandler = () => {
-      if (window.scrollY > 200) {
-        handleShow(true);
-      } else {
-        handleShow(false);
-      }
-    };
-    window.addEventListener("scroll", ScrollHandler);
-    return () => {
-      window.removeEventListener("scroll", ScrollHandler);
-    };
-  }, []);
+
 
   return (
     <div
-      className={`${show ? 'block' : 'hidden'}  ${
-        darkMode && " "
-      }  navbar bg-violet-400 text-black border-black w-full uppercase  fixed  transition-all 
-      duration-1000 md:h-20 flex flex-col items-center md:justify-around`}
-    >
+      className="navbar bg-black bg-opacity-20 text-white border-black w-full uppercase  fixed  transition-all 
+      duration-1000 md:h-16 flex flex-col items-center md:justify-around" >
       <div className=" w-full flex flex-col h-20 items-center justify-center">
    
       <div className=" flex flex-row">
-        <ul className=" flex flex-row gap-3 md:gap-6 text-sm md:text-lg font-bold tracking-wide ">
+        <ul className=" flex flex-row gap-3 md:gap-6 text-sm md:text-lg font-semibold tracking-wide ">
           <li className=" cursor-pointer hover:opacity-60 ">
             <Link
               to="homeSection"

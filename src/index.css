@@ -4,8 +4,11 @@
 
 body {
   margin: 0;
-  font-family:  sans-serif;
   line-height: 1.875;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 
 }
 

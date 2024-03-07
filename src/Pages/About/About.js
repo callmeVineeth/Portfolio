@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function About() {
   return (
-    <div className=" px-4 font-serif py-14 ">
+    <div className=" px-4 font-serif py-36 mt-40">
       <div className=" flex flex-col-reverse justify-evenly items-center md:flex-row-reverse">
         <div className=" w-full md:w-1/2 h-full px-2  md:px-20 text-xl ">
         <h1 className=" text-3xl md:text-5xl py-4 my-2 md:my-10 border-b-2 w-max border-black"> About Me</h1>
