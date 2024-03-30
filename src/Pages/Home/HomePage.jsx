@@ -33,12 +33,12 @@ function HomePage() {
       <section className="homeSection text-white bg-transparent w-full py-28 flex flex-col items-center">
 
          <div className=" flex flex-col justify-center items-center mt-36">
-            <span className=" italic text-6xl font-extrabold">
+            <span className=" italic text-3xl md:text-6xl font-extrabold">
               Hi,
                I'm Vineeth 
             </span>  
      
-            <span className="text-lg font-mono text-white text-center tracking-widest">
+            <span className="text md:text-lg font-mono text-white text-center tracking-widest">
            FRONT-END REACT DEV BASED IN INDIA 
             </span>
            
