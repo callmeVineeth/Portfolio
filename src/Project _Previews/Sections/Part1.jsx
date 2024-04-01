@@ -17,7 +17,7 @@ function Part1({ title, description, liveSite, gitCode , sitelabel='Live Site'})
 
       <div className='fixed'><Link to='/'><IoMdArrowBack size={30} /></Link></div>
       <div className='flex flex-col p-12 gap-2'>
-        <h1 className='text-4xl font-semibold text-blue-600'>
+        <h1 className=' text-3xl md:text-4xl font-semibold text-blue-600'>
           <a href={liveSite} target='_blank' rel='noopener noreferrer'>{title}</a>
         </h1>
         <div className='opacity-90 mt-1 md:mt-4'>{description}</div>
