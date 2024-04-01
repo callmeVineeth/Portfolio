@@ -25,40 +25,6 @@
 }
 
 
-.gridImage{
-    background: url('../../Assets/welcomeImage.png');
-    background-size: cover;
-    background-position: center center;
-    height: 50vh;
-    width: 60%;
-    border-radius: 10px;
-    transition: all;
-    transition-duration: 600ms;
-
-    /* background-color: rebeccapurple; */    
-}
-
-.roundedImage{
-    background: url('../../Assets/welcomeImage.png');
-    background-size: cover;
-    background-position: center center;
-
-}
-
-.with-animation {
-    background-position: -100% 0;
-    animation: slide-background 2s linear infinite; 
-}
-
-/* Define the animation */
-@keyframes slide-background {
-    0% { background-position: -100% 0; width: 0;} /* Start position */
-    100% { background-position: 100% 0; width: 100%;} /* End position */
-}
-
-.grid_cell{
-    border :1px solid grey;
-}
 
 .homeSection{
     z-index: 1;
