@@ -38,7 +38,7 @@ function HomePage() {
                I'm Vineeth 
             </span>  
      
-            <span className="text md:text-lg font-mono text-white text-center tracking-widest">
+            <span className=" text-sm md:text-lg font-mono text-white text-center tracking-widest">
            FRONT-END REACT DEV BASED IN INDIA 
             </span>
            
@@ -49,12 +49,12 @@ function HomePage() {
                 spy={true}
                 exact="true"
                 offset={-80}>
-                   <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
+                   <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 md:p-2 
               f transition-all duration-500 uppercase">
                   About me 
               </button>
                   </Link>
-                  <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
+                  <button className="button border-2 hover:text-white border-gray-300  mt-6 w-max h-10 md:p-2 
               f transition-all duration-500 uppercase">
                 <a href="https://github.com/callmeVineeth"  target="_blank">
                   GitHub
@@ -62,7 +62,7 @@ function HomePage() {
               </button>
                   <button
                   onClick={handleDownloadResume}
-                   className="button  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 p-2 
+                   className="button  border-2 hover:text-white border-gray-300  mt-6 w-max h-10 md:p-2 
               f transition-all duration-500 uppercase">
                   Resume
               </button>
